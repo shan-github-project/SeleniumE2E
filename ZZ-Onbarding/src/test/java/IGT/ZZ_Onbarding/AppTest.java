@@ -22,9 +22,13 @@ public class AppTest
         System.out.println("commit y");
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
+    public void Appium( String testName )
+    {
+        
+        System.out.println("branch test 1");
+        System.out.println("branch test 2");
+    }
+    
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
