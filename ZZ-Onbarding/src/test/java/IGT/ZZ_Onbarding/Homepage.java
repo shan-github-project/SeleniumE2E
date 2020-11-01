@@ -36,6 +36,9 @@ public class Homepage extends Base
 	{
 		
 		driver.get(prop.getProperty("url"));
+		System.out.println("sample1");
+        System.out.println("sample2");
+        System.out.println("sample3");
 		
 		Loginpage lp=new Loginpage(driver);
 		lp.getUname().sendKeys("engineering+100@thinkhr-dev.com");
